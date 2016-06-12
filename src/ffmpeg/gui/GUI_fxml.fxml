@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="209.0" prefWidth="363.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ffmpeg.gui.GUI_fxmlController">
+   <children>
+      <ChoiceBox id="fileExtensionsDDM" fx:id="fileExtensionsDDM" layoutX="107.0" layoutY="14.0" prefWidth="150.0" />
+      <Button id="transformFileButton" fx:id="transformFileButton" layoutX="137.0" layoutY="170.0" mnemonicParsing="false" onAction="#handleFileTransformation" text="Transform file" />
+      <Button id="fileSelectorButton" fx:id="fileSelectorButton" layoutX="201.0" layoutY="55.0" mnemonicParsing="false" onAction="#handleFileSelection" text="Examine" />
+      <TextField id="newFileNameTF" fx:id="newFileNameTF" layoutX="108.0" layoutY="94.0" />
+      <Label fx:id="fileSelected" layoutX="108.0" layoutY="55.0" prefHeight="25.0" prefWidth="89.0" text="Select a file" />
+      <Label fx:id="statusReportL" layoutX="168.0" layoutY="138.0" />
+   </children>
+</AnchorPane>
